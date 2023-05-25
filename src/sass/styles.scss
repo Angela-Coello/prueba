@@ -1,4 +1,5 @@
-@use 'sections';
+@use 'sections'; 
+@use 'footer';
 @import 'variables';
 
 body{
@@ -11,5 +12,9 @@ body{
             font-style: italic;
             text-align: center;
         }
+    }
+
+    .titulo {
+        @include estiloTitulo;
     }
 }

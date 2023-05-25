@@ -1,5 +1,16 @@
 $backgroundColor: burlywood;
 $titleColor: crimson;
 $TextColorOne: darkorchid;
-$TextColortwo: green;
+$TextColortwo: blue;
 
+@mixin box() {
+    background-color: cadetblue;
+    border-radius: 12px;
+    height: 124px;
+    width: 124px;
+}
+
+@mixin estiloTitulo() {
+    background-color: darkgreen;
+    color: orange;
+}
